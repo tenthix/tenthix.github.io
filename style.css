@@ -12,10 +12,12 @@
                   hsl(243, 96%, 54%),
                   hsl(296, 78%, 53%));
   --second-gradient: linear-gradient(90deg,
-                  hsl(192, 94%, 49%),
-                  hsl(224, 98%, 51%));
+                hsl(10, 80%, 54%),
+                hsl(303, 100%, 50%),
+                hsl(296, 78%, 53%));
   --third-gradient: linear-gradient(90deg,
-                  hsl(243, 96%, 54%),
+                  hsl(10, 80%, 54%),
+                  hsl(303, 100%, 50%),
                   hsl(296, 78%, 53%));
   --white-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 75%);
@@ -196,11 +198,26 @@ img {
     color: var(--white-color);
     font-size: var(--h2-font-size);
     font-family: var(--second-font);
-    transition: color .4s;
 }
 
 .nav__link:hover{
-    color: var(--first-color);
+  background: var(--second-gradient);
+  background-clip: text;
+  --webkit-background-clip:text;
+  color:transparent;
+}
+
+.text__link{
+  color: var(--white-color);
+  font-size: var(--small-font-size);
+  font-family: var(--second-font);
+}
+
+.text__link:hover{
+background: var(--second-gradient);
+background-clip: text;
+--webkit-background-clip:text;
+color:transparent;
 }
 
 .nav__img,
@@ -239,7 +256,10 @@ img {
 
 /* Active link */
 .active-link{
-  color: var(--first-color);
+  background: var(--second-gradient);
+  background-clip: text;
+  --webkit-background-clip:text;
+  color:transparent;
 }
 
 /*=============== HOME ===============*/
@@ -340,16 +360,15 @@ img {
 }
 
 .travel__swiper{
-  padding-top: 3rem;
+  padding-top: 0rem;
 }
+
 .travel__card{
   position: relative;
   border: 2px solid;
   border-image:var(--second-gradient) 1;
   background: linear-gradient(hsla(243,98,51%,.3),transparent 50%);
-  padding: 9.25rem 1rem 3rem;
-  text-align: center;
-
+  padding: 9.25rem 3rem 3rem;
 }
 
 .travel__img{
@@ -367,23 +386,36 @@ img {
   font-size: var(--h2-font-size);
 }
 .travel__info{
-  display: block;
-  color: var(--first-color);
   font-weight: var(--font-semi-bold);
-  margin-bottom: 1rem;
+  background: var(--second-gradient);
+  background-clip: text;
+  --webkit-background-clip:text;
+  color:transparent;
+  text-align: right;
 }
+
+.travel__small{
+  font-weight: var(--font-semi-bold);
+  background: var(--second-gradient);
+  background-clip: text;
+  --webkit-background-clip:text;
+  color:transparent;
+}
+
 .travel__description{
   font-size: var(--small-font-size);
 }
 
-
-
-
-
-
-
-
-
+.stats__table{
+  position: relative;
+  border: 2px solid;
+  border-image:var(--second-gradient) 1;
+  background: linear-gradient(hsla(243,98,51%,.3),transparent 50%);
+  text-align: left;
+  padding-left: 1rem;
+  width: 100%;
+  color: white;
+}
 
 /* Swiper class */
 .swiper-pagination-bullets .swiper-pagination-horizontal{
@@ -419,6 +451,7 @@ img {
 .swiper-slide-active .travel__img{
   transform: rotate(0);
 }
+
 /*=============== EXPLORE ===============*/
 .explore__container{
   row-gap: 3rem;
@@ -681,17 +714,16 @@ img {
     margin: 0 auto;
   }
   .contact__form{
-    width: 600px;
+    width: 100%;
     justify-self: center;
     display: grid;
     grid-template-columns: 1fr max-content;
     column-gap: 1rem;
-    border:2px solid var(--border-color);
-    padding: 1rem 1rem 1rem 1.5rem;
+    padding: 1rem 1rem 1rem 0rem;
   }
   .contact__input{
     border: none;
-    padding: 0;
+    padding: 1rem;
     
     }
   
@@ -763,17 +795,24 @@ font-size: 2rem;
   max-width: 980px;
 }
 .travel__card{
-  padding-top: 11rem;
+  padding-top: 3rem;
 }
 .travel__img{
   width: 200px;
 }
 .travel__info{
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+.travel__small{
+  padding-left: 90%;
+
 }
 .travel__description{
   font-size: var(--normal-font-size);
+  
 }
+
+
 
 .swiper-pagination-bullets .swiper-pagination-horizontal{
   bottom: 3rem;
