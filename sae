@@ -66,27 +66,27 @@
 
                         <table class="stats__table">
                               <tr>
-                                <td>Total cloud drive usage</td>
+                                <td>Circuoating coins on network</td>
                                 <td>0</td>
-                                <td>MB</td>
+                                <td></td>
                               </tr>
                               <tr>
-                                <td>Total mined coins</td>
+                                <td>Total obtained coins</td>
                                 <td>0</td>
                                 <td>TIXC</td>
                               </tr>
                               <tr>
-                                <td>Total mined blocks</td>
+                                <td>Transaction rate</td>
+                                <td>0</td>
+                                <td>TX/M</td>
+                              </tr>
+                              <tr>
+                                <td>Registered nodes</td>
                                 <td>0</td>
                                 <td></td>
                               </tr>
                               <tr>
-                                <td>Registered pools</td>
-                                <td>0</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td>Clouds associated with pools</td>
+                                <td>Registered peers</td>
                                 <td>0</td>
                                 <td></td>
                               </tr>
@@ -99,7 +99,7 @@
          <section class="travel section" id="travel">
             <div class="travel__container container">
                 <h2 class="section__title">
-                    <span>EXPLORER</span>
+                    <span>WALLET VIEWER</span>
                 </h2>
 
                 <div class="travel__swiper swiper">
@@ -107,7 +107,7 @@
                     <table class="stats__table">
                         <td>
                             <form action="" class="contact__form">
-                                <input type="text" placeholder="Block number e.g. 1" name="block_number" class="contact__input">
+                                <input type="text" placeholder="Wallet adress" name="block_number" class="contact__input">
                                 <button type="submit" class="button button__yellow">Submit</button>
                             </form>
                         </td>
@@ -117,28 +117,85 @@
 
                         <table class="stats__table">
                               <tr>
-                                <td>Total cloud drive usage</td>
-                                <td>0</td>
-                                <td>MB</td>
-                              </tr>
-                              <tr>
-                                <td>Total mined coins</td>
+                                <td>Current coins</td>
                                 <td>0</td>
                                 <td>TIXC</td>
                               </tr>
                               <tr>
-                                <td>Total mined blocks</td>
+                                <td>Total sent coins</td>
+                                <td>0</td>
+                                <td>TIXC</td>
+                              </tr>
+                              <tr>
+                                <td>Total received coins</td>
+                                <td>0</td>
+                                <td>TIXC</td>
+                              </tr>
+                              <tr>
+                                <td>Created transactions</td>
                                 <td>0</td>
                                 <td></td>
                               </tr>
                               <tr>
-                                <td>Registered pools</td>
+                                <td>Peer</td>
+                                <td>0</td>
+                                <td></td>
+                              </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+         <section class="travel section" id="travel">
+            <div class="travel__container container">
+                <h2 class="section__title">
+                    <span>TRANSACTION VIEWER</span>
+                </h2>
+
+                <div class="travel__swiper swiper">
+
+                    <table class="stats__table">
+                        <td>
+                            <form action="" class="contact__form">
+                                <input type="text" placeholder="Wallet adress" name="block_number" class="contact__input">
+                                <button type="submit" class="button button__yellow">Submit</button>
+                            </form>
+                        </td>
+                    </table>
+                    <br>
+                    <div class="swiper-wrapper">
+
+                        <table class="stats__table">
+                              <tr>
+                                <td>From adress</td>
                                 <td>0</td>
                                 <td></td>
                               </tr>
                               <tr>
-                                <td>Clouds associated with pools</td>
+                                <td>To adress</td>
                                 <td>0</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>Transaction amount</td>
+                                <td>0</td>
+                                <td>TIXC</td>
+                              </tr>
+                              <tr>
+                                <td>Fee</td>
+                                <td>0</td>
+                                <td>TIXC</td>
+                              </tr>
+                              <tr>
+                                <td>Validations</td>
+                                <td>0</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                               </tr>
                         </table>
