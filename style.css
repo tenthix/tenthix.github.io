@@ -15,7 +15,7 @@
                 hsl(10, 80%, 54%),
                 hsl(303, 100%, 50%),
                 hsl(296, 78%, 53%));
-  --third-gradient: linear-gradient(90deg,
+  --third-gradient: linear-gradient(200deg,
                   hsl(10, 80%, 54%),
                   hsl(303, 100%, 50%),
                   hsl(296, 78%, 53%));
@@ -246,7 +246,7 @@ color:transparent;
     position: absolute;
     width: 1000%;
     height: 100%;
-    background-color: hsla(238, 100%, 6%,.5);
+    background-color: hsla(0, 0%, 0%, 0.5);
     backdrop-filter: blur(16px);
     --webkit-backdrop-filter:blur(16px);
     top:0;
@@ -353,7 +353,7 @@ color:transparent;
 
 .travel__container{
   position: relative;
-  background-color: hsla(0, 0%, 18%, 0.4);
+  /*background-color: hsla(0, 0%, 18%, 0.4);*/
   backdrop-filter:blur(16px);
   --webkit-backdrop-filter:blur(16px);
   padding:2rem 2rem 5rem;
@@ -459,12 +459,7 @@ color:transparent;
 .explore__data{
   position: relative;
 }
-.explore__planet{
-  width: 50px;
-  position: absolute;
-  top: 3rem;
-  right: 0;
-}
+
 .explore__decription{
   text-align: center;
   margin-bottom:2rem;
@@ -503,6 +498,7 @@ color:transparent;
   row-gap: 2.5rem;
   grid-template-columns: 265px;
   justify-content: center;
+
 }
 .history__card{
   text-align: center;
@@ -512,29 +508,9 @@ color:transparent;
   margin: 0 auto .75rem;
 }
 .history__description{
-  color:var(--first-color);
-  font-weight: var(--font-semi-bold);
+  color:var(--text-color);
+  font-weight: var(--small-font-size);
 }
-
-.history__planet-1,
-.history__planet-2{
-  position: absolute;
-}
-
-.history__planet-1{
-  width: 250px;
-  top:10rem;
-  left: -8rem;
-}
-
-.history__planet-2{
-  width:150px;
-  right:-5rem;
-  bottom:6rem;
-}
-
-
-
 
 /*=============== CONTACT ===============*/
 .contact__conatainer{
@@ -566,22 +542,6 @@ color:transparent;
   padding-block: 2rem;
 }
 
-.footer__planet-1,
-.footer__planet-2{
-  position: absolute;
-}
-
-.footer__planet-1{
-  width: 200px;
-  left:-6.5rem;
-  bottom:-4.5rem;
-}
-
-.footer__planet-2{
-  width: 50px;
-  top:5.5rem;
-  right: 0;
-}
 .footer__content{
   row-gap: 2.5rem;
 }
@@ -788,7 +748,7 @@ font-size: 2rem;
   padding: 3.5rem 3.5rem 7.5rem;
 }
 .travel__container .section__title{
-  text-align: initial;
+  text-align: center;
 }
 
 .travel__swiper{
