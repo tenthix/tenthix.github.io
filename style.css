@@ -180,7 +180,7 @@ img {
     position: fixed;
     top: 0;
     right:-100%;
-    background-color: hsla(238, 100%, 6%,.5);
+    background-color: hsla(0, 0%, 0%, 0.5);
     backdrop-filter: blur(16px);
     --webkit-backdrop-filter:blur(16px);
     width: 80%;
@@ -408,7 +408,6 @@ color:transparent;
 
 .stats__table{
   position: relative;
-  border: 2px solid;
   border-image:var(--second-gradient) 1;
   background: linear-gradient(hsla(243,98,51%,.3),transparent 50%);
   text-align: left;

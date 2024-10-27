@@ -56,7 +56,7 @@
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== TRAVEL ====================-->
-         <section class="travel section" id="travel">
+        <section class="travel section" id="travel">
             <div class="travel__container container">
                 <h2 class="section__title">
                     <span>CHANGELOG</span>
@@ -82,17 +82,26 @@
       <footer class="footer">
          <div class="footer__container conatiner grid">
 
+
             <div class="footer__content grid">
                 <ul class="footer__links">
                     <li>
-                        <a href="#home" class="footer__links">HOME
+                        <a href="" target="_blank"
+                        class="footer__social-links">
+                        <i class="ri-discord-fill"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#travel" class="footer__links">TRAVEL</a>
+                        <a href="" target="_blank"
+                        class="footer__social-links">
+                        <i class="ri-github-fill"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#explore" class="footer__links">EXPLORE</a>
+                        <a href="" target="_blank"
+                        class="footer__social-links">
+                        <i class="ri-twitter-x-fill"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

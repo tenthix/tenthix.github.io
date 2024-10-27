@@ -90,6 +90,11 @@
                                 <td>0</td>
                                 <td></td>
                               </tr>
+                              <tr>
+                                <td>Current fee</td>
+                                <td>0</td>
+                                <td>%</td>
+                              </tr>
                         </table>
                     </div>
                 </div>
@@ -159,7 +164,7 @@
                     <table class="stats__table">
                         <td>
                             <form action="" class="contact__form">
-                                <input type="text" placeholder="Wallet adress" name="block_number" class="contact__input">
+                                <input type="text" placeholder="Transaction ID" name="block_number" class="contact__input">
                                 <button type="submit" class="button button__yellow">Submit</button>
                             </form>
                         </td>
@@ -209,20 +214,29 @@
       <footer class="footer">
          <div class="footer__container conatiner grid">
 
-            <div class="footer__content grid">
-                <ul class="footer__links">
-                    <li>
-                        <a href="#home" class="footer__links">HOME
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#travel" class="footer__links">TRAVEL</a>
-                    </li>
-                    <li>
-                        <a href="#explore" class="footer__links">EXPLORE</a>
-                    </li>
-                </ul>
-            </div>
+
+          <div class="footer__content grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="" target="_blank"
+                    class="footer__social-links">
+                    <i class="ri-discord-fill"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank"
+                    class="footer__social-links">
+                    <i class="ri-github-fill"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank"
+                    class="footer__social-links">
+                    <i class="ri-twitter-x-fill"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
             
             <span class="footer__copy">
                 &copy; 2024 Copyright Tenthix network project
